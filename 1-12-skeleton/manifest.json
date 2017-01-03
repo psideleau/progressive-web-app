@@ -1,0 +1,5 @@
+{
+  "name": "PushTest",
+  "short_name": "Push Demo",
+  "display": "standalone"
+}

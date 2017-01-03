@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+group = 'com.psideleau.progressive'
+
+dependencies {
+    compile libraries.groovy
+    compile libraries.logback
+    compile libraries.groovyHttpClient
+    compile 'io.jsonwebtoken:jjwt:0.7.0'
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.56'
+
+    testCompile libraries.spock
+}
